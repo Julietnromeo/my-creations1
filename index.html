@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--html type of document-->
+<html lang="en">
+    <!--type of language-->
+<head>
+     <!-- meta is a self closing tag -->
+    <meta charset="UTF-8">
+    <!--unicode characters 8th version-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--displays the output in viewport with initial zooming of 1.0-->
+    <title>Document</title>
+    <!--gives the title of the page-->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+</head>
+<body>
+    <img src="./th.jfif" width="200">
+    <div></div>
+    <!-- heading tags -->
+    <h1 style="color: brown;">its december</h1>
+    <p>A last month in a year</p>
+    <b>bold</b>
+    <!-- selectors(id,class) -->
+    <p id="one">first paragraph</p>
+    <br>
+    <p class="two">second paragraph</p>
+    <style>
+    #one{
+        color:blue;
+    }
+    .two{
+        color: yellowgreen;
+    }
+</style>
+    <!-- internal styling -->
+    <!-- <style>
+        h1{
+            color: brown;
+        }
+    </style> -->
+    <form action="demo.xl" method="get">
+        <fieldset>
+            <legend><h1>Create Account</h1></legend>
+            <label for="first">First name</label><br>
+            <input type="text" id="fn" required /><br>
+            <label for="first">Lastname</label><br>
+            <input type="text" id="ln" value="kumar" readonly/><br>
+            <label for="phone">phone</label><br>
+            <input type="number" id="pn" /><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" placeholder="Enter your E-mail" autofocus><br>
+            <label for="DOB">Date Of Birth</label><br>
+            <input type="datetime-local" id="dob"><br>
+            <label for="Dob">DOB</label><br>
+            <input type="date" id="birth"><br>
+            <label for="bdaymonth">Birthday(month and year)</label><br>
+            <input type="month" name="bdaymonth"><br>
+            <label>Gender</label><br>
+            <input type="radio" name="fav" value="M"><br>
+            <label for="malename">Male</label><br>
+            <input type="radio" name="fav" value="F"><br>
+            <label for="css">Female</label><br>
+            <label >you like to recieve</label><br>
+            <input type="checkbox" name="one"><br>
+            <label for="bb">Entertainment</label><br>
+            <input type="checkbox" name="two"><br>
+            <label for="cc">sports</label><br>
+            <input type="checkbox" name="three"><br>
+            <label for="hh">action</label><br>
+        </fieldset> 
+    </form>
+
+</body>
+</html>
